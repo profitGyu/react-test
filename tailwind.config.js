@@ -46,6 +46,19 @@ export default {
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
+            brand: {
+                50: '#fff0f5', // 배경용 연한 핑크
+                100: '#ffdee9',
+                200: '#ffc0d6',
+                300: '#ff94b8',
+                400: '#ff5d95',
+                500: '#f43f78', // 메인 로고 컬러 (Vivid Pink)
+                600: '#e21d5e',
+                700: '#c20e48',
+                800: '#a10e3f',
+                900: '#861039',
+                950: '#4c031d',
+            },
   			chart: {
   				'1': 'hsl(var(--chart-1))',
   				'2': 'hsl(var(--chart-2))',
@@ -53,6 +66,15 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
+  		},
+        keyframes: {
+            shine: {
+                '0%': { transform: 'translateX(-100%)' },
+                '100%': { transform: 'translateX(100%)' }
+            },
+        },
+        animation: {
+            shine: 'shine 2s ease-in-out infinite',
   		}
   	}
   },

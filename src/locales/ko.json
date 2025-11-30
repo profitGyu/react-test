@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "about": "소개",
+    "contents": "콘텐츠",
+    "space": "공간",
+    "contact": "문의하기"
+  },
+  "hero": {
+    "badge": "차세대 엔터테인먼트",
+    "title_1": "AI x 팬덤이 만드는",
+    "title_2": "새로운 시대의 시작",
+    "description_1": "엔지니어1은 IP 기반 커머스 및 AI 콘텐츠 개발에 특화된 스튜디오입니다.",
+    "description_2": "팬덤과 기술이 만나 만드는 설레는 경험을 제공합니다."
+  },
+  "feature": {
+    "platform": {
+      "subtitle": "AI 플랫폼",
+      "title": "MD 시너지 & 양방향 소통",
+      "desc_1": "AI 기반 자사 플랫폼을 통해 기존 MD와 디지털 MD와의 시너지를 극대화합니다.",
+      "desc_2": "팬 참여형 플랫폼을 통해 팬들의 목소리가 담긴 더욱 특별한 ‘우리만의 콘텐츠’를 함께 만들어갑니다."
+    },
+    "content": {
+      "subtitle": "콘텐츠 개발",
+      "title": "여성향 IP 기반 콘텐츠",
+      "desc_1": "여성향 장르를 통해 글로벌 콘텐츠 시장으로 진출합니다. 2차 저작물 및 커머스를 통해 새로운 형태의 팬 경험을 제공합니다.",
+      "desc_2": "글로벌 시장으로 확장 가능한 IP 생태계를 구축하고 팬들과의 깊은 교감을 이끌어냅니다."
+    },
+    "space": {
+      "subtitle": "공간 사업",
+      "title": "팝업 스토어 & 콜라보 카페",
+      "desc_1": "온라인 플랫폼과 오프라인 활동을 유기적으로 연동해, 경계를 넘어서는 새로운 경험을 제공합니다.",
+      "desc_2": "오프라인 공간을 단순한 소비의 장이 아닌, 팬들과 함께 만들어가는 몰입형 경험의 무대로 확장합니다."
+    }
+  },
+  "projects": {
+    "title": "Upcoming Projects",
+    "subtitle": "준비 중인 프로젝트",
+    "coming_soon": "Coming Soon",
+    "items": {
+      "project_a": {
+        "title": "Project Alpha",
+        "description": "팬들과 아티스트가 더 가까워지는 새로운 AI 커뮤니티 플랫폼.",
+        "tag": "AI Community"
+      },
+      "project_b": {
+        "title": "Project Beta",
+        "description": "몰입형 스토리텔링과 인터랙티브 기술이 결합된 차세대 콘텐츠.",
+        "tag": "Interactive Content"
+      }
+    }
+  },
+  "core_value": {
+    "title": "Core Values",
+    "subtitle": "핵심 가치",
+    "items": {
+      "empathy": {
+        "title": "공감과 이해",
+        "description": "감정선과 대화의 맥락을 깊이 이해하여 사람과 교감하는 듯한 경험을 제공합니다. 사용자의 의도를 정확히 파악하고 상황에 맞는 최적의 반응을 이끌어냅니다."
+      },
+      "efficiency": {
+        "title": "효율 최적화",
+        "description": "차세대 알고리즘과 최적화된 시스템 설계를 기반으로 정보 처리 속도를 극대화했습니다. 방대한 데이터를 신속하게 분석하고 필요한 결과를 즉시 제공하여 사용자의 자원을 절약합니다."
+      },
+      "content_specialized": {
+        "title": "콘텐츠 특화",
+        "description": "복잡한 콘텐츠 구조와 그 안에 담긴 의미를 심층적으로 이해하는 데 특화되어 있습니다. 필요한 정보를 정확하게 추출하고, 고품질 콘텐츠를 생성하는 강력한 기반이 됩니다."
+      }
+    }
+  },
+  "capability": {
+    "title": "Our Capabilities",
+    "subtitle": "핵심 역량",
+    "items": {
+      "adaptive": {
+        "title": "적응형 학습",
+        "description": "스스로 학습하고 발전하여, 최적화된 성능과 개인화된 경험을 제공합니다.",
+        "tags": ["#지속적발전", "#개인맞춤", "#성능고도화"]
+      },
+      "multimodal": {
+        "title": "다중 모달리티",
+        "description": "이미지, 음성, 영상 등 다양한 형태의 데이터를 동시에 이해하고 처리하며, 복합적인 정보를 생성하거나 전달할 수 있습니다.",
+        "tags": ["#멀티모달", "#입체적이해", "#풍부한소통"]
+      },
+      "user_centric": {
+        "title": "사용자 중심",
+        "description": "사용자의 잠재적 니즈를 예측하고 필요한 정보나 기능을 먼저 제안하며 능동적으로 지원합니다.",
+        "tags": ["#능동적지원", "#니즈예측", "#맞춤형자동화"]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "엔지니어1과 함께 새로운 경험을 만들어가세요.",
+    "info_title": "연락처 정보",
+    "map_title": "오시는 길",
+    "address": "(04040) 서울특별시 마포구 와우산로21길 20-11, 4층",
+    "email_label": "이메일 문의",
+    "kakao_map_loading": "지도를 불러오는 중입니다...",
+    "form": {
+      "title": "메시지 보내기",
+      "name": "이름",
+      "email": "이메일 주소",
+      "subject": "제목",
+      "message": "내용",
+      "placeholder_name": "이름을 입력하세요",
+      "placeholder_email": "example@email.com",
+      "placeholder_subject": "문의 제목을 입력하세요",
+      "placeholder_message": "문의하실 내용을 자유롭게 적어주세요",
+      "submit": "메시지 보내기"
+    }
+  },
+  "footer": {
+    "address_label": "주소",
+    "address_value": "(04040) 서울특별시 마포구 와우산로21길 20-11, 4층",
+    "contact_label": "문의",
+    "copyright": "© 2024 ENGINEER1. All rights reserved."
+  }
+}

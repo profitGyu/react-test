@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "about": "About",
+    "contents": "Contents",
+    "space": "Space",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "badge": "Next Gen Entertainment",
+    "title_1": "AI x FANDOM",
+    "title_2": "New Era Begins",
+    "description_1": "Engineer1 is a studio specialized in IP-based commerce and AI content development.",
+    "description_2": "We provide exciting experiences created where fandom meets technology."
+  },
+  "feature": {
+    "platform": {
+      "subtitle": "AI Platform",
+      "title": "MD Synergy & Interaction",
+      "desc_1": "Maximizing synergy between traditional and digital MD through our AI-based platform.",
+      "desc_2": "Creating special 'Our Own Contents' with fans' voices through our participatory platform."
+    },
+    "content": {
+      "subtitle": "Contents Development",
+      "title": "Female-Oriented IP Contents",
+      "desc_1": "Entering the global market with female-oriented genres. Providing new fan experiences through secondary works and commerce.",
+      "desc_2": "Building a scalable IP ecosystem for the global market and driving deep engagement with fans."
+    },
+    "space": {
+      "subtitle": "Space Business",
+      "title": "Popup Store & Collab Cafe",
+      "desc_1": "Seamlessly connecting online platform and offline activities to provide boundary-crossing experiences.",
+      "desc_2": "Expanding offline spaces from simple consumption venues to immersive stages created together with fans."
+    }
+  },
+  "projects": {
+    "title": "Upcoming Projects",
+    "subtitle": "Coming Soon",
+    "coming_soon": "Coming Soon",
+    "items": {
+      "project_a": {
+        "title": "Project Alpha",
+        "description": "A new AI community platform bringing fans and artists closer together.",
+        "tag": "AI Community"
+      },
+      "project_b": {
+        "title": "Project Beta",
+        "description": "Next-gen content combining immersive storytelling with interactive technology.",
+        "tag": "Interactive Content"
+      }
+    }
+  },
+  "core_value": {
+    "title": "Core Values",
+    "subtitle": "Core Values",
+    "items": {
+      "empathy": {
+        "title": "Empathy & Understanding",
+        "description": "We provide an experience akin to human interaction by deeply understanding emotional context. We accurately grasp user intent to elicit optimal responses for any situation."
+      },
+      "efficiency": {
+        "title": "Efficiency Optimization",
+        "description": "Maximizing processing speed with next-gen algorithms. We rapidly analyze vast data to provide instant results, saving users' time and resources."
+      },
+      "content_specialized": {
+        "title": "Content Specialization",
+        "description": "Specialized in understanding complex content structures and underlying meanings. This serves as a powerful foundation for accurate information extraction and high-quality content generation."
+      }
+    }
+  },
+  "capability": {
+    "title": "Our Capabilities",
+    "subtitle": "Key Capabilities",
+    "items": {
+      "adaptive": {
+        "title": "Adaptive Learning",
+        "description": "Self-learning and evolving to provide optimized performance and personalized experiences.",
+        "tags": ["#ContinuousEvolution", "#Personalization", "#HighPerformance"]
+      },
+      "multimodal": {
+        "title": "Multi-modality",
+        "description": "Understanding and processing various forms of data such as images, voice, and video simultaneously to generate or deliver complex information.",
+        "tags": ["#MultiModal", "#3DUnderstanding", "#RichCommunication"]
+      },
+      "user_centric": {
+        "title": "User-Centric",
+        "description": "Predicting potential user needs and proactively suggesting necessary information or functions.",
+        "tags": ["#ProactiveSupport", "#NeedsPrediction", "#CustomAutomation"]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Create new experiences with ENGINEER1.",
+    "info_title": "Contact Information",
+    "map_title": "Location",
+    "address": "4F, 20-11, Wausan-ro 21-gil, Mapo-gu, Seoul, Republic of Korea",
+    "email_label": "Email Inquiry",
+    "kakao_map_loading": "Loading map...",
+    "form": {
+      "title": "Send us a Message",
+      "name": "Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Your Message",
+      "placeholder_name": "Your Name",
+      "placeholder_email": "example@email.com",
+      "placeholder_subject": "Subject",
+      "placeholder_message": "Write your message here...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "address_label": "Address",
+    "address_value": "4F, 20-11, Wausan-ro 21-gil, Mapo-gu, Seoul, Republic of Korea",
+    "contact_label": "Contact",
+    "copyright": "© 2024 ENGINEER1. All rights reserved."
+  }
+}
