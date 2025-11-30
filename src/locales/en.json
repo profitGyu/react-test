@@ -38,14 +38,14 @@
     "coming_soon": "Coming Soon",
     "items": {
       "project_a": {
-        "title": "Project Alpha",
-        "description": "A new AI community platform bringing fans and artists closer together.",
-        "tag": "AI Community"
+        "title": "soyo-mo store",
+        "description": "An online store featuring various official merchandise from artists.",
+        "tag": "Goods Store"
       },
       "project_b": {
         "title": "Project Beta",
-        "description": "Next-gen content combining immersive storytelling with interactive technology.",
-        "tag": "Interactive Content"
+        "description": "Next-generation content including animation, created through collaboration between AI and artists.",
+        "tag": "AI x Artist"
       }
     }
   },

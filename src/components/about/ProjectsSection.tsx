@@ -82,7 +82,10 @@ const ProjectsSection = () => {
 
               {/* Content */}
               <div className="space-y-4 md:space-y-6 text-center md:text-left my-6">
-                <h3 className="text-3xl md:text-5xl font-bold text-slate-800 dark:text-white drop-shadow-sm transition-colors duration-300">
+                <h3 className={cn(
+                  "text-3xl md:text-5xl font-bold text-slate-800 dark:text-white drop-shadow-sm transition-colors duration-2000",
+                  project.key === "project_a" && "animate-pulse"
+                )}>
                   {t(`projects.items.${project.key}.title`)}
                 </h3>
                 <p className="text-lg md:text-xl font-medium leading-relaxed text-slate-600 dark:text-slate-300 transition-colors duration-300">
