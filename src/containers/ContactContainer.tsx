@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Mail, MapPin } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 import KakaoMap from "@/components/contact/KakaoMap";
 import ContactForm from "@/components/contact/ContactForm";
 
@@ -11,18 +12,18 @@ const ContactContainer = () => {
   return (
     <div className="min-h-screen bg-background font-sans text-foreground">
       <Header />
-      
+
       <main className="pt-20">
         {/* Hero / Title */}
         <section className="py-20 text-center px-4">
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             className="mb-4 text-4xl font-extrabold tracking-tight lg:text-5xl"
           >
             {t('contact.title')}
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.2 }}
@@ -33,12 +34,12 @@ const ContactContainer = () => {
         </section>
 
         <div className="container mx-auto mb-24 px-4">
-          
+
           {/* 1. Info & Form Grid (Side by Side) */}
           <div className="grid gap-8 lg:grid-cols-2 mb-24 items-start">
-            
+
             {/* Left: Info Cards (Moved here) */}
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
@@ -46,12 +47,12 @@ const ContactContainer = () => {
             >
               <div className="rounded-2xl border border-border bg-card p-8 md:p-10 shadow-sm flex flex-col">
                 <h3 className="mb-10 text-3xl font-bold text-foreground">{t('contact.info_title')}</h3>
-                
+
                 <div className="space-y-10">
                   {/* Address Item */}
                   <div className="flex items-start gap-6">
-                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-600 dark:bg-brand-500/20 dark:text-brand-400">
-                      <MapPin className="h-7 w-7" />
+                    <div className="flex size-14 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-600 dark:bg-brand-500/20 dark:text-brand-400">
+                      <MapPin className="size-7" />
                     </div>
                     <div>
                       <p className="mb-2 font-bold text-xl">{t('contact.map_title')}</p>
@@ -61,8 +62,8 @@ const ContactContainer = () => {
 
                   {/* Email Item */}
                   <div className="flex items-start gap-6">
-                    <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-600 dark:bg-brand-500/20 dark:text-brand-400">
-                      <Mail className="h-7 w-7" />
+                    <div className="flex size-14 shrink-0 items-center justify-center rounded-full bg-brand-100 text-brand-600 dark:bg-brand-500/20 dark:text-brand-400">
+                      <Mail className="size-7" />
                     </div>
                     <div>
                       <p className="mb-2 font-bold text-xl">{t('contact.email_label')}</p>
@@ -77,10 +78,10 @@ const ContactContainer = () => {
 
             {/* Right: Contact Form (Moved here) */}
             <motion.div
-               initial={{ opacity: 0, x: 20 }}
-               whileInView={{ opacity: 1, x: 0 }}
-               viewport={{ once: true }}
-               transition={{ delay: 0.4 }}
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.4 }}
             >
               <ContactForm />
             </motion.div>
@@ -88,7 +89,7 @@ const ContactContainer = () => {
 
 
           {/* 2. Map Section (Bottom, Full Width) */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -104,9 +105,7 @@ const ContactContainer = () => {
         </div>
       </main>
 
-      <footer className="border-t border-border bg-muted/30 py-12 text-center text-sm text-muted-foreground">
-        {t('footer.copyright')}
-      </footer>
+      <Footer />
     </div>
   );
 };

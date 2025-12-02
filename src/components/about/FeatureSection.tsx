@@ -34,16 +34,16 @@ const FeatureSection = ({
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8 }}
-            className="relative aspect-square w-full max-w-md flex-1 lg:aspect-[4/3]"
+            className="relative aspect-square w-full max-w-xs flex-1 md:max-w-md lg:aspect-[4/3]"
           >
-            {/* Decorative Background */}
+
             <div className="absolute inset-0 -rotate-6 rounded-[3rem] bg-gradient-to-tr from-brand-200 to-purple-200 opacity-60 blur-2xl dark:from-brand-900/40 dark:to-purple-900/40" />
-            
-            {/* Main Card */}
-            <div className="relative flex h-full w-full items-center justify-center rounded-[2.5rem] bg-card shadow-xl shadow-brand-100/50 ring-1 ring-border dark:shadow-none">
-               {/* Icon Background Blob */}
-              <div className="absolute h-48 w-48 rounded-full bg-brand-50 blur-2xl dark:bg-brand-900/20" />
-              <Icon className="relative z-10 h-32 w-32 text-brand-500 drop-shadow-sm" strokeWidth={1.5} />
+
+
+            <div className="relative flex size-full items-center justify-center rounded-[2.5rem] bg-card shadow-xl shadow-brand-100/50 ring-1 ring-border dark:shadow-none">
+
+              <div className="absolute size-48 rounded-full bg-brand-50 blur-2xl dark:bg-brand-900/20" />
+              <Icon className="relative z-10 size-32 text-brand-500 drop-shadow-sm" strokeWidth={1.5} />
             </div>
           </motion.div>
 
@@ -57,7 +57,7 @@ const FeatureSection = ({
           >
             <div className="mb-4 flex items-center justify-center gap-2 lg:justify-start">
               <div className="rounded-full bg-brand-100 p-2 dark:bg-brand-500/20">
-                <Icon className="h-5 w-5 text-brand-600 dark:text-brand-400" />
+                <Icon className="size-5 text-brand-600 dark:text-brand-400" />
               </div>
               <span className="text-sm font-bold uppercase tracking-wider text-brand-600 dark:text-brand-400">
                 {subtitle}

@@ -19,7 +19,7 @@ const ContactForm = () => {
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      className="w-full max-w-2xl mx-auto bg-card rounded-2xl border border-border shadow-sm p-8 md:p-10"
+      className="w-full mx-auto bg-card rounded-2xl border border-border shadow-sm p-8 md:p-10"
     >
       <h2 className="text-3xl font-bold mb-8 text-foreground">
         {t('contact.form.title')}
@@ -28,37 +28,37 @@ const ContactForm = () => {
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="space-y-2">
           <Label htmlFor="name">{t('contact.form.name')}</Label>
-          <Input 
-            id="name" 
-            placeholder={t('contact.form.placeholder_name')} 
+          <Input
+            id="name"
+            placeholder={t('contact.form.placeholder_name')}
             className="bg-background/50"
           />
         </div>
 
         <div className="space-y-2">
           <Label htmlFor="email">{t('contact.form.email')}</Label>
-          <Input 
-            id="email" 
-            type="email" 
-            placeholder={t('contact.form.placeholder_email')} 
+          <Input
+            id="email"
+            type="email"
+            placeholder={t('contact.form.placeholder_email')}
             className="bg-background/50"
           />
         </div>
 
         <div className="space-y-2">
           <Label htmlFor="subject">{t('contact.form.subject')}</Label>
-          <Input 
-            id="subject" 
-            placeholder={t('contact.form.placeholder_subject')} 
+          <Input
+            id="subject"
+            placeholder={t('contact.form.placeholder_subject')}
             className="bg-background/50"
           />
         </div>
 
         <div className="space-y-2">
           <Label htmlFor="message">{t('contact.form.message')}</Label>
-          <Textarea 
-            id="message" 
-            placeholder={t('contact.form.placeholder_message')} 
+          <Textarea
+            id="message"
+            placeholder={t('contact.form.placeholder_message')}
             className="bg-background/50 min-h-[150px] resize-none"
           />
         </div>
